@@ -6,3 +6,6 @@
         }
     ]
 }
+{
+  "buildCommand": "next build"
+}
