@@ -27,7 +27,7 @@ function Signup() {
             return handleError('name, email and password are required')
         }
         try {
-            const url = `http://localhost:8080/auth/siginup`;
+            const url = https://authmern-app-api.vercel.app/auth/siginup`;
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
